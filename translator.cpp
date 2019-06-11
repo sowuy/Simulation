@@ -1,6 +1,6 @@
-#TRANSLATOR FROM DECIMAL TO BINARY FILE
-#USAGE : compilatio : g++ translator.cpp -o translator
-#GOAL : Convert simulation decimal output datafiles to binary raw output format (data format) in order to run reconstruction code (reader.cpp) on it and compare apples to apples.
+//TRANSLATOR FROM DECIMAL TO BINARY FILE
+//USAGE : compilatio : g++ translator.cpp -o translator
+//GOAL : Convert simulation decimal output datafiles to binary raw output format (data format) in order to run reconstruction code (reader.cpp) on it and compare apples to apples.
 
 #include <iostream>
 #include <fstream>
