@@ -17,6 +17,7 @@ As it is now you simply need to launch the executable file to start the simulati
 ```
 bin/Cosmics Hoffset_low Hoffset_high
 ```
+I advise you to start with Hoffset_low=0 Hoffset_high=0
 
 ## 2) Misalignment :
 
