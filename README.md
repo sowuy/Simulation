@@ -18,3 +18,30 @@ As it is now you simply need to launch the executable file to start the simulati
 bin/Cosmics Hoffset_low Hoffset_high
 ```
 
+## 2) Misalignment :
+
+The effect of misalignment on the distribution of residuals obtained from reconstructed angles through a simulation is demonstrated.
+
+For that, CSV output file (x0; y1; x2; y3) from the previous simulation (**correctSim**) were re-used and *amplitudeCalculator.cpp* was adapted to take into account the displacement of the detectors.
+
+## Help 
+ 
+ Usage of *amplitudeCalculator.cpp* :
+ 
+ ```
+ g++ amplitudeCalculator.cpp -o amplitudeCalculator
+ ./amplitudeCalculator -w w file 
+ ```
+ 
+where  w : Gap between detectors.
+
+## 3) Acceptance : 
+
+Same as **correctSim** at first sight.. Need to be investigated.
+Focus on acceptance not on cosmic muon distributions.
+Output = CSVFile with hit strip number for each layer : **x0 y1 x2 y3**
+
+## 4) Induced charge :
+
+The following simulation has been made in order to calculate the signal expected in one of the
+chambers built according to the Shockley-Ramo theorem
