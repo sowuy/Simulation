@@ -1,4 +1,5 @@
-
+#DISPLAY EVENT FROM DATA FILE
+#USAGE : python3 display.py pathToDataFile/File.dat
 
 import os
 import sys
