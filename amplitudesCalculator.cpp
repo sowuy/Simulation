@@ -1,3 +1,9 @@
+// USAGE : compilation :g++ amplitudeCalculator.cpp -o amplitudeCalculator
+// execution : ./amplitudeCalculator -w w file 
+// where w : Gap between detectors.
+
+// GOAL :calculate the angles from four pieces of information in decimal format. It is different from the one applied on real data, because the reading is not in binary code this time.
+
 #include <iostream>
 #include <fstream>
 #include <unistd.h>
